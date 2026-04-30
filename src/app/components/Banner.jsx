@@ -1,74 +1,40 @@
-import React from 'react';
 
+import { Button } from "@heroui/react";
+import Link from "next/link";
 
-
-const Banner = async () => {
-
-  const res = await fetch('https://book-borrowing-web-app.vercel.app/data.json');
-  const bookData = await res.json();
-  
-  const firstFour = bookData.slice(0, 4);
-  console.log(firstFour);
+const Banner = () => {
   return (
- <section className="bg-orange-100 min-h-screen flex items-center">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-        
-      
-        <div>
-          <p className="inline-block bg-yellow-200 text-black font-semibold px-4 py-1 rounded-full text-sm mb-4">
-             Your Digital Library
-          </p>
-
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+    <div className="bg-[url('https://i.ibb.co.com/7tBnybsm/banner.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+      {/* Overlay */}
+      <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
+        <div className="max-w-7xl mx-auto px-6 text-white">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             Find Your{" "}
             <span className="bg-linear-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent">
               Next Read
             </span>
           </h1>
-
-          <p className="text-gray-600 mt-4 max-w-md">
+          <p className="text-white mt-4 max-w-md">
             Discover thousands of books across all genres. Borrow digitally,
             read anywhere, and return with a click. Your next adventure awaits.
           </p>
 
-          <div className="flex gap-4 mt-6 items-center">
-            <button className=" btn bg-orange-500 text-white px-6 py-6 rounded-lg shadow hover:bg-orange-600 transition">
-              Browse Now →
-            </button>
+          <div className="flex gap-4 mt-5">
+            <Link href="#">
+              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
+                 Browse Now
+              </Button>
+            </Link>
 
-            <button className="btn px-6 py-6 rounded-lg shadow">
-              Join Free
-            </button>
+            <Link href="/pricing">
+              <Button variant="outline" className="text-white">
+                Join Free
+              </Button>
+            </Link>
           </div>
         </div>
-
-        {/* RIGHT IMAGES (hidden below md) */}
-        <div className="hidden md:grid grid-cols-2 gap-5">
-
-          <div className="hidden md:grid grid-cols-2 gap-5">
-          {firstFour.map((book, index) => (
-            <div key={book.id} className="rounded-2xl overflow-hidden shadow">
-              
-              {/* special box for 2nd item (CC box replace করতে চাইলে) */}
-              {index === 1 ? (
-                <div className="bg-orange-500 flex items-center justify-center text-white text-5xl font-bold h-full">
-                  CC
-                </div>
-              ) : (
-                <img
-                  src={book.image_url}
-                  alt="book"
-                  className="w-full h-full object-cover"
-                />
-              )}
-
-            </div>
-          ))}
-        </div>
-
-        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

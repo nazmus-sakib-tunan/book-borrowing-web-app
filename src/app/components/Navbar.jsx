@@ -1,43 +1,45 @@
-import Link from 'next/link';
-import React from 'react';
-
-
+"use client";
+import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link href={'/'}>Home</Link></li>
-        
-        <li><Link href={'/allBooks'}>All Books</Link></li>
-      </ul>
-          </div>
-          
+    <div className="border-b px-2">
+      <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
+        <div className="flex gap-2 items-center">
+          <Image
+            src={"/logo.png"}
+            alt="logo"
+            loading="eager"
+            width={50}
+            height={50}
+            className="object-cover h-auto w-auto"
+          />
+          <h3 className="font-black text-lg">BookMart</h3>
+        </div>
+
+        <ul className="flex items-center gap-5 text-sm">
+          <li >
+            <Link href={"/"}>Home</Link>
+          </li>
+          <li >
+            <Link href={"/all-photos"}>All Photos</Link>
+          </li>
          
-          <a className="btn btn-ghost text-xl">
-             
-            BookMart</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn bg-amber-400">Login</a>
-  </div>
-</div>
-      
+          <li >
+            <Link href={"/profile"}>Profile</Link>
+          </li>
+        </ul>
+
+        <div className="flex gap-5">
+          <ul className="flex items-center  text-sm">
+            <li className="bg-linear-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent text-xl">
+              <Link href={"/signup"}>Login</Link>
+            </li>
+          
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 };
