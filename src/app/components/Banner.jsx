@@ -1,6 +1,14 @@
 import React from 'react';
 
-const Banner = () => {
+
+
+const Banner = async () => {
+
+  const res = await fetch('https://book-borrowing-web-app.vercel.app/data.json');
+  const bookData = await res.json();
+  
+  const firstFour = bookData.slice(0, 4);
+  console.log(firstFour);
   return (
  <section className="bg-orange-100 min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -36,22 +44,27 @@ const Banner = () => {
 
         {/* RIGHT IMAGES (hidden below md) */}
         <div className="hidden md:grid grid-cols-2 gap-5">
-          
-          <div className="rounded-2xl overflow-hidden shadow">
-            {/* <img src="/book1.jpg" className="w-full h-full object-cover" /> */}
-          </div>
 
-          <div className="bg-orange-500 rounded-2xl flex items-center justify-center text-white text-5xl font-bold shadow">
-            CC
-          </div>
+          <div className="hidden md:grid grid-cols-2 gap-5">
+          {firstFour.map((book, index) => (
+            <div key={book.id} className="rounded-2xl overflow-hidden shadow">
+              
+              {/* special box for 2nd item (CC box replace করতে চাইলে) */}
+              {index === 1 ? (
+                <div className="bg-orange-500 flex items-center justify-center text-white text-5xl font-bold h-full">
+                  CC
+                </div>
+              ) : (
+                <img
+                  src={book.image_url}
+                  alt="book"
+                  className="w-full h-full object-cover"
+                />
+              )}
 
-          <div className="rounded-2xl overflow-hidden shadow col-span-1">
-            {/* <img src="/space.jpg" className="w-full h-full object-cover" /> */}
-          </div>
-
-          <div className="rounded-2xl overflow-hidden shadow">
-            {/* <img src="/book2.jpg" className="w-full h-full object-cover" /> */}
-          </div>
+            </div>
+          ))}
+        </div>
 
         </div>
       </div>

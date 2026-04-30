@@ -3,108 +3,36 @@
     "id": 1,
     "title": "The Silent Forest",
     "author": "Arif Hasan",
-    "description": "A mysterious story of a forest where secrets whisper through the trees.",
+    "description": "A mysterious forest story.",
     "category": "Story",
     "available_quantity": 12,
-    "image_url": "https://example.com/images/silent-forest.jpg"
+    "image_url": "https://picsum.photos/400/300?random=1"
   },
   {
     "id": 2,
     "title": "JavaScript Mastery",
     "author": "John Carter",
-    "description": "A complete guide to mastering modern JavaScript from beginner to advanced.",
+    "description": "Learn JavaScript deeply.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://example.com/images/js-mastery.jpg"
+    "image_url": "https://picsum.photos/400/300?random=2"
   },
   {
     "id": 3,
     "title": "The Space Beyond",
     "author": "Nadia Rahman",
-    "description": "Explore the mysteries of the universe and what lies beyond our galaxy.",
+    "description": "Explore the universe.",
     "category": "Science",
     "available_quantity": 10,
-    "image_url": "https://example.com/images/space-beyond.jpg"
+    "image_url": "https://picsum.photos/400/300?random=3"
   },
   {
     "id": 4,
     "title": "Lost in Time",
     "author": "Michael Stone",
-    "description": "A thrilling journey through time where history and future collide.",
+    "description": "Time travel adventure.",
     "category": "Story",
     "available_quantity": 6,
-    "image_url": "https://example.com/images/lost-in-time.jpg"
-  },
-  {
-    "id": 5,
-    "title": "React in Action",
-    "author": "Sophia Lee",
-    "description": "Learn how to build dynamic web applications using React.",
-    "category": "Tech",
-    "available_quantity": 15,
-    "image_url": "https://example.com/images/react-action.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Quantum World",
-    "author": "Dr. Alan Brooks",
-    "description": "An introduction to quantum physics and its strange phenomena.",
-    "category": "Science",
-    "available_quantity": 7,
-    "image_url": "https://example.com/images/quantum-world.jpg"
-  },
-  {
-    "id": 7,
-    "title": "The Hidden Treasure",
-    "author": "Sadia Noor",
-    "description": "A group of friends uncover a hidden treasure with unexpected consequences.",
-    "category": "Story",
-    "available_quantity": 9,
-    "image_url": "https://example.com/images/hidden-treasure.jpg"
-  },
-  {
-    "id": 8,
-    "title": "Node.js Essentials",
-    "author": "David Miller",
-    "description": "Build scalable backend applications using Node.js.",
-    "category": "Tech",
-    "available_quantity": 11,
-    "image_url": "https://example.com/images/node-essentials.jpg"
-  },
-  {
-    "id": 9,
-    "title": "The Human Brain",
-    "author": "Dr. Emily Watson",
-    "description": "Discover how the human brain works and its incredible capabilities.",
-    "category": "Science",
-    "available_quantity": 5,
-    "image_url": "https://example.com/images/human-brain.jpg"
-  },
-  {
-    "id": 10,
-    "title": "Echoes of the Past",
-    "author": "Rafiq Ahmed",
-    "description": "A dramatic tale of love, loss, and memories that never fade.",
-    "category": "Story",
-    "available_quantity": 13,
-    "image_url": "https://example.com/images/echoes-past.jpg"
-  },
-  {
-    "id": 11,
-    "title": "Full Stack Development",
-    "author": "Kevin Brown",
-    "description": "A comprehensive roadmap to becoming a full-stack web developer.",
-    "category": "Tech",
-    "available_quantity": 14,
-    "image_url": "https://example.com/images/fullstack-dev.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Life of Stars",
-    "author": "Dr. Sarah Khan",
-    "description": "Understand the birth, life, and death of stars in our universe.",
-    "category": "Science",
-    "available_quantity": 6,
-    "image_url": "https://example.com/images/life-of-stars.jpg"
+    "image_url": "https://picsum.photos/400/300?random=4"
   }
 ]
