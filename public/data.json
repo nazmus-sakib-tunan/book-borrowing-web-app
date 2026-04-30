@@ -2,37 +2,109 @@
   {
     "id": 1,
     "title": "The Silent Forest",
-    "author": "Arif Hasan",
-    "description": "A mysterious forest story.",
+    "author": "Elena Voss",
+    "description": "A gripping tale of survival and mystery in an ancient enchanted forest where whispers guide lost souls.",
     "category": "Story",
-    "available_quantity": 12,
-    "image_url": "https://picsum.photos/400/300?random=1"
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/id/1015/300/400"
   },
   {
     "id": 2,
-    "title": "JavaScript Mastery",
-    "author": "John Carter",
-    "description": "Learn JavaScript deeply.",
+    "title": "Python Mastery",
+    "author": "Dr. Alan Reyes",
+    "description": "Comprehensive guide to modern Python programming, covering advanced patterns, performance optimization, and real-world projects.",
     "category": "Tech",
-    "available_quantity": 8,
-    "image_url": "https://picsum.photos/400/300?random=2"
+    "available_quantity": 15,
+    "image_url": "https://picsum.photos/id/106/300/400"
   },
   {
     "id": 3,
-    "title": "The Space Beyond",
-    "author": "Nadia Rahman",
-    "description": "Explore the universe.",
+    "title": "Quantum Horizons",
+    "author": "Prof. Nadia Khalil",
+    "description": "Exploring the frontiers of quantum mechanics and its revolutionary impact on computing, communication, and reality itself.",
     "category": "Science",
-    "available_quantity": 10,
-    "image_url": "https://picsum.photos/400/300?random=3"
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/id/201/300/400"
   },
   {
     "id": 4,
-    "title": "Lost in Time",
-    "author": "Michael Stone",
-    "description": "Time travel adventure.",
+    "title": "Echoes of Tomorrow",
+    "author": "Marcus Hale",
+    "description": "A dystopian love story set in a world where memories can be bought and sold.",
     "category": "Story",
-    "available_quantity": 6,
-    "image_url": "https://picsum.photos/400/300?random=4"
+    "available_quantity": 12,
+    "image_url": "https://picsum.photos/id/133/300/400"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Native Architecture",
+    "author": "Sarah Chen",
+    "description": "Building scalable, resilient systems with Kubernetes, microservices, and modern DevOps practices.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/id/180/300/400"
+  },
+  {
+    "id": 6,
+    "title": "The Hidden Universe",
+    "author": "Dr. Raj Patel",
+    "description": "Dark matter, black holes, and the mysteries that shape our cosmos in ways we are only beginning to understand.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/id/251/300/400"
+  },
+  {
+    "id": 7,
+    "title": "The Last Lantern Bearer",
+    "author": "Lila Moreau",
+    "description": "In a kingdom where light is currency, one girl discovers the power to reignite hope.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/id/1018/300/400"
+  },
+  {
+    "id": 8,
+    "title": "Deep Learning Unleashed",
+    "author": "Michael Torres",
+    "description": "From neural networks to transformers: a practical deep dive into modern artificial intelligence.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://picsum.photos/id/1074/300/400"
+  },
+  {
+    "id": 9,
+    "title": "Biology of Consciousness",
+    "author": "Dr. Aisha Rahman",
+    "description": "How the brain creates the mind. A scientific journey through neuroscience and the nature of awareness.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://picsum.photos/id/292/300/400"
+  },
+  {
+    "id": 10,
+    "title": "Shadows on the Silk Road",
+    "author": "Omar Farouk",
+    "description": "An epic historical adventure following a young merchant through danger, betrayal, and discovery along the ancient trade routes.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://picsum.photos/id/133/300/400"
+  },
+  {
+    "id": 11,
+    "title": "System Design Interview Mastery",
+    "author": "Priya Sharma",
+    "description": "Master the art of designing scalable systems. Real interview questions, solutions, and behind-the-scenes insights from FAANG engineers.",
+    "category": "Tech",
+    "available_quantity": 14,
+    "image_url": "https://picsum.photos/id/201/300/400"
+  },
+  {
+    "id": 12,
+    "title": "The Edge of Evolution",
+    "author": "Prof. Liam Dubois",
+    "description": "How genetic mutations, natural selection, and time crafted the incredible diversity of life on Earth.",
+    "category": "Science",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/id/251/300/400"
   }
 ]
