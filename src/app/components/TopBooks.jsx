@@ -15,7 +15,7 @@ const TopBooks = async () => {
           <h1 className="text-5xl font-bold">Featured Books</h1>
           <p className="text-gray-400">Hand-picked selections from our librarians. Start your reading journey with these amazing titles.</p>
         </div>
-      <div className="grid grid-cols-3 gap-5 w-11/12 mx-auto  ">
+      <div className="grid grid-cols-2  justify-between gap-5  mx-auto  md:grid-cols-4 md:w-5xl ">
         
         
          {
