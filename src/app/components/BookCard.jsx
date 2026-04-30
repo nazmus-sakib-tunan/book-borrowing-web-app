@@ -1,0 +1,27 @@
+import { Card, Chip } from '@heroui/react';
+import Image from 'next/image';
+
+const BookCard = ({ bookData }) => {
+  
+  console.log (bookData,"card")
+  return (
+    <Card className='shadow-2xl '>
+      <div className='relative  aspect-square overflow-hidden rounded-2xl group cursor-pointer '>
+        <Image src={bookData.image_url} fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          alt={bookData.title} className='  rounded-xl -full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110' />
+        <Chip className='absolute right-2 top-2 px-5 bg-linear-to-r from-purple-500 to-pink-500 flex items-center justify-center text-white'>{bookData.category }</Chip>
+      </div>
+      <div>
+        <h2 className='font-medium'>{bookData.title }</h2>
+      </div>
+      <div>
+        
+        <h2>Available Quantity:{ bookData.available_quantity}</h2>
+      </div>
+      
+   </Card>
+  );
+};
+
+export default BookCard;

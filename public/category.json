@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Trending",
+    "description": "Most popular and in-demand books right now",
+    "slug": "trending",
+    "icon": "🔥",
+    "banner": "/categories/trending.jpg"
+  },
+  {
+    "id": 2,
+    "title": "New Arrival",
+    "description": "Recently added books to the collection",
+    "slug": "new-arrival",
+    "icon": "🆕",
+    "banner": "/categories/new-arrival.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Best Seller",
+    "description": "Top-selling books loved by readers",
+    "slug": "best-seller",
+    "icon": "🏆",
+    "banner": "/categories/best-seller.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Editor's Pick",
+    "description": "Handpicked books recommended by experts",
+    "slug": "editors-pick",
+    "icon": "⭐",
+    "banner": "/categories/editors-pick.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Top Rated",
+    "description": "Books with the highest ratings",
+    "slug": "top-rated",
+    "icon": "🌟",
+    "banner": "/categories/top-rated.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Discount Deals",
+    "description": "Books available at special discounted prices",
+    "slug": "discount-deals",
+    "icon": "💸",
+    "banner": "/categories/discount.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Recommended",
+    "description": "Books suggested based on reader interest",
+    "slug": "recommended",
+    "icon": "👍",
+    "banner": "/categories/recommended.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Limited Edition",
+    "description": "Exclusive and limited stock books",
+    "slug": "limited-edition",
+    "icon": "🎁",
+    "banner": "/categories/limited.jpg"
+  }
+]

@@ -2,10 +2,14 @@
 import { Button } from "@heroui/react";
 import Link from "next/link";
 
+
 const Banner = () => {
+  
+  
   return (
-    <div className="bg-[url('https://i.ibb.co.com/7tBnybsm/banner.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
-      {/* Overlay */}
+    <div>
+      <div className="bg-[url('https://i.ibb.co.com/7tBnybsm/banner.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl ">
+    
       <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
         <div className="max-w-7xl mx-auto px-6 text-white">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
@@ -33,8 +37,16 @@ const Banner = () => {
             </Link>
           </div>
         </div>
+
+       
       </div>
-    </div>
+
+     
+      </div>
+      <div>
+       
+     </div>
+   </div>
   );
 };
 
