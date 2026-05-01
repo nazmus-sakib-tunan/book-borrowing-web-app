@@ -115,6 +115,7 @@ export default function SignUpPage() {
           </Button>
         </div>
       </Form>
+      <p className="text-center">Or</p>
     </Card>
   );
 }
