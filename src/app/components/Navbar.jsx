@@ -32,9 +32,13 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-5">
-          <ul className="flex items-center  text-sm">
+          <ul className="flex items-center gap-3 text-sm">
             <li className="bg-linear-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent text-xl">
-              <Link href={"/signup"}>Login</Link>
+              <Link href={"/signup"}>Signup</Link>
+            </li>
+            /
+            <li className="bg-linear-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent text-xl">
+              <Link href={"/login"}>Login</Link>
             </li>
           
           </ul>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const BookCard = ({ bookData }) => {
   
-  console.log (bookData,"card")
+  
   return (
     <Card className='shadow-2xl  '>
       <div className='relative  aspect-square overflow-hidden rounded-2xl group cursor-pointer  '>
