@@ -20,7 +20,7 @@ const BookCard = ({ bookData }) => {
         
         <h2>Available Quantity:{ bookData.available_quantity}</h2>
       </div>
-      <Link href={'/view-details'}>
+      <Link href={`/all-books/${bookData.id}`}>
         <button className={" btn btn-outline border-gray-300 rounded-2xl  w-full"}>View</button>
       </Link>
       

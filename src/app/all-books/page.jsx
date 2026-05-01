@@ -25,7 +25,7 @@ const AllBooksPage = async () => {
                 
                 <h2>Available Quantity:{ b.available_quantity}</h2>
               </div>
-          <Link href={'/view-details'}>
+          <Link href={ `/all-books/${b.id}`}>
             <button  className={" btn btn-outline border-gray-300 rounded-2xl  w-full" }>View</button>
           </Link>
               
