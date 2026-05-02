@@ -7,7 +7,7 @@ dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
 const client = new MongoClient(process.env.MONGODB_URI);
 
-// ✅ ensure connection
+
 await client.connect();
 
 const db = client.db("BookMart");
@@ -17,7 +17,7 @@ export const auth = betterAuth({
     client,
   }),
 
-  // ✅ VERY IMPORTANT
+
   secret: process.env.AUTH_SECRET,
 
   baseURL: process.env.AUTH_URL || "http://localhost:3000",
